@@ -26,8 +26,8 @@ body{
 
 }
 .car {
-    top: 10rem;
-    left: 15%;
+    top: 30rem;
+    left: 1%;
     
 }
 .car:hover {
@@ -38,7 +38,7 @@ body{
     right: -20rem;
 }
 .hot-dog:hover {
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0.5rem 1rem #888888;
 }
 .ALPS {
     top: 4rem;
@@ -46,14 +46,36 @@ body{
    }
    .ALPS:hover {
     filter: grayscale(80%);
+    border-radius: 10rem;
    }
    .US{
-       top: 35rem;
-       bottom: -10rem,
+       top: 75rem;
+       bottom: -20rem,
    }
    .US:hover {
     filter: hue-rotate(100deg);
-    transition: all 2.0s;
+    transition: all 0.3s;
+   }
+   .PLEB {
+    position: relative;
+    top: 100rem;
+    bottom: -15rem,
+   }
+   .PLEB:hover {
+    filter: blur(2px);
+   }
+   .Word {
+    position: absolute;
+    top: 1075px;
+    right: -300px;
+    width: 1000px;
+    height: 500px;
+    font-size: 1.6rem;
+    color: white;
+    font-family: 'Girassol', cursive;
+   }
+   .Word:hover {
+       
    }
 .pd6-photo:hover{
     transform: scale(1.3);
@@ -66,21 +88,22 @@ opacity: 0.3;
 .button {
     position:relative;
     transition: .5s ease;
-    top: 250px;
-    left: 420px;
-    right: -420px;
-    bottom: -191px;
-    background-color: #4CAF50; /* Green */
+    top: 25rem;
+    left: 42rem;
+    right: -42rem;
+    bottom: -19rem;
+    background-color: #4CAF50; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5rem 3.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Girassol', cursive;
  }
  .button:hover {
     transform: scale(1.3);
     z-index: 2;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 0.5rem 1rem #888888;
  }
