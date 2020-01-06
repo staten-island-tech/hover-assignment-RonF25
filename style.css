@@ -47,11 +47,19 @@ body {
 .hot-dog {
   top: 2rem;
   right: -60rem;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .hot-dog:hover {
   -webkit-box-shadow: 0.5rem 1rem #888888;
           box-shadow: 0.5rem 1rem #888888;
+  -webkit-transform: translate(200px);
+          transform: translate(200px);
 }
 
 .ALPS {

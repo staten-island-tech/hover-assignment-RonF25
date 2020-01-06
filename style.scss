@@ -37,13 +37,18 @@ body{
 .hot-dog {
     top: 2rem;
     right: -60rem;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 }
 .hot-dog:hover {
     box-shadow: 0.5rem 1rem #888888;
+    transform: translate(200px);
 }
 .ALPS {
     top: 4rem;
     bottom: -10rem;
+    
    }
    .ALPS:hover {
     filter: grayscale(80%);
@@ -51,7 +56,8 @@ body{
    }
    .US{
        top: 75rem;
-       bottom: -20rem,
+       bottom: -20rem;
+       
    }
    .US:hover {
     filter: hue-rotate(100deg);
@@ -60,7 +66,7 @@ body{
    .PLEB {
     position: relative;
     top: 100rem;
-    bottom: -15rem,
+    bottom: -15rem;
    }
    .PLEB:hover{
     filter: blur(2px);
