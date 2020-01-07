@@ -11,6 +11,18 @@ body {
   background-color: #B2DFDB;
 }
 
+@-webkit-keyframes slide {
+  100% {
+    right: -100;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: -100;
+  }
+}
+
 .gallery-parent {
   margin: 0 auto;
   height: 100rem;
@@ -53,13 +65,13 @@ body {
           animation-duration: 3s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .hot-dog:hover {
   -webkit-box-shadow: 0.5rem 1rem #888888;
           box-shadow: 0.5rem 1rem #888888;
-  -webkit-transform: translate(200px);
-          transform: translate(200px);
 }
 
 .ALPS {

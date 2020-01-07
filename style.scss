@@ -8,6 +8,9 @@ body{
     text-align: center;
     background-color: #B2DFDB;
 }
+@keyframes slide {
+    100% { right: -100; }
+  }
 .gallery-parent{
     //text-align: center;
     margin: 0 auto;
@@ -40,10 +43,12 @@ body{
     animation-name: slide;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    
 }
 .hot-dog:hover {
     box-shadow: 0.5rem 1rem #888888;
-    transform: translate(200px);
+    
 }
 .ALPS {
     top: 4rem;
